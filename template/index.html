@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Total Data Science</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../static/css/style.css">
+  
+</head>
+
+<body>
+
+<!--<img src=
+""
+         alt="zomato image", width="400", height="150", style="float:left">
+
+<img src=
+"data:image/png;base64,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"
+         alt="zomato image", width="200", height="70", style="float:right">-->
+
+<style>
+body {
+  background-image: url("https://images.pexels.com/photos/952356/pexels-photo-952356.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-position: 200%;
+  background-size: cover;
+}
+</style>
+
+
+
+ <div class="login">
+	<h1>Predict Zomato Restaurant Ratings</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" name="Online Order" placeholder="Order Online" required="required" />
+        <input type="text" name="Book Table" placeholder="Book Table" required="required" />
+		<input type="text" name="Votes" placeholder="Votes" required="required" />
+        <input type="text" name="Location" placeholder="Location" required="required" />
+        <input type="text" name="Restaurant Type" placeholder="Restaurant Type" required="required" />
+        <input type="text" name="Cuisines" placeholder="Cuisines" required="required" />
+        <input type="text" name="Cost" placeholder="Cost" required="required" />
+        <input type="text" name="Menu Item" placeholder="Menu Item" required="required" />
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   
+   {{ prediction_text }}
+
+ </div>
+
+
+</body>
+</html>
